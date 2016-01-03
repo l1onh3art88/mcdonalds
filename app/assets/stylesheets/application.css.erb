@@ -15,6 +15,7 @@
 
 body{
   width: 100%;
+  overflow-x:hidden;
 }
 
   
@@ -22,11 +23,13 @@ body{
 #slide-1 {
   
 background-image: url(<%= asset_data_uri 'olympus.jpg' %>); 
-background-repeat: none;
-  
+background-repeat: no-repeat;
+    background-size: 100%;  
 }
 #slide-2{
   background-image: url(<%= asset_data_uri '10807663_1491233547807922_934465920_o.jpg' %>);
+background-size: 100%;
+    background-repeat: no-repeat;
 }
 .col-lg-4{
   margin: 200px 0px 0px 550px;
